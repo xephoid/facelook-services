@@ -1,0 +1,19 @@
+{
+  "name": "facelook-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "profiles.js",
+  "scripts": {
+    "start": "functions-framework --port=4000 --target=generateProfile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zeke Swepson",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.2.0",
+    "@google-cloud/secret-manager": "^4.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
