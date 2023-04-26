@@ -9,6 +9,9 @@
   },
   "author": "Zeke Swepson",
   "license": "ISC",
+  "engines": {
+    "node": ">=v14.15.5"
+  },
   "dependencies": {
     "@google-cloud/functions-framework": "^3.2.0",
     "@google-cloud/secret-manager": "^4.2.2",
